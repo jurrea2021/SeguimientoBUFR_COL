@@ -1,3 +1,7 @@
+packs = c("readxl","leaflet","plotly","remotes")
+install.packages(setdiff(packs, rownames(installed.packages()))) 
+if(!require("inlmisc")) remotes::install_github("USGS-R/inlmisc", dependencies = TRUE)
+
 library(readxl)
 library(leaflet)
 library(plotly)
