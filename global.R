@@ -1,7 +1,7 @@
 library(readxl)
 library(leaflet)
 library(plotly)
-#library(inlmisc)
+library(inlmisc)
 
 RUTA = "data/"
 # RUTA = "I:/.shortcut-targets-by-id/1_iDGC_Qb_ZqoaK1zmBwRPDF2lwFTGQtq/CTO. 334-2023 JULIAN URREA/ProductosRelacionados/09_IntercambioDatosBUFR/ShinyBUFR/data/"
