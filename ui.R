@@ -7,7 +7,8 @@ shinyUI(fluidPage(
                        label = 'PERIODO DE SEGUIMIENTO',
                        choices = c("Octubre de 2023" = "oct-2023",
                                    "Noviembre de 2023" = "nov-2023",
-                                   "Diciembre de 2023" = "dic-2023"
+                                   "Diciembre de 2023" = "dic-2023",
+                                   "Enero de 2024" = "ene-2024"
                        )),
            plotlyOutput('graficoCantidades')),
     column(6,
